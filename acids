@@ -1,0 +1,22 @@
+class AminoAcids(Enum):
+    Ala = ("GCU", "GCC", "GCA", "GCG")#64
+    Arg = ("CGU", "CGC", "CGA", "CGG", "AGA", "AGG")#60
+    Asn = ("AAU", "AAC")
+    Asp = ("GAU", "GAC")
+    Cys = ("UGU", "UGC")#50
+    Glu = ("GAA", "GAG")
+    Gln = ("CAA", "CAG")
+    Gly = ("GGU", "GGC", "GGA", "GGG")
+    His = ("CAU", "CAC")#40
+    Ile = ("AUU", "AUC", "AUA")
+    Leu = ("UUA", "UUG", "CUU", "CUC", "CUA", "CUG")#35
+    Lys = ("AAA", "AAG")#29
+    Met = ("AUG",)  # Start codon
+    Phe = ("UUU", "UUC")#26
+    Pro = ("CCU", "CCC", "CCA", "CCG")
+    Ser = ("UCU", "UCC", "UCA", "UCG", "AGU", "AGC")#20
+    Thr = ("ACU", "ACC", "ACA", "ACG")
+    Trp = ("UGG",)#10
+    Tyr = ("UAU", "UAC")
+    Val = ("GUU", "GUC", "GUA", "GUG")
+    Ter = ("UAA", "UAG", "UGA")  # Stop codons (abbreviated as Ter for termination)
